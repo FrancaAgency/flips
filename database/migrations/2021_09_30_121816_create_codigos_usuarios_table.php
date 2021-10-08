@@ -16,10 +16,12 @@ class CreateCodigosUsuariosTable extends Migration
         Schema::create('codigos_usuarios', function (Blueprint $table) {
             $table->unsignedBigInteger('codigo_lote')->nullable();
             $table->unsignedBigInteger('usuario_doc')->nullable();
+            $table->unsignedBigInteger('id_concurso')->nullable();
 
-            $table->foreign('codigo_lote')->references('lote')->on('codigos')->onDelete('cascade');
+            $table->foreign('codigo_lote')->references('id')->on('codigos')->onDelete('cascade');
             $table->foreign('usuario_doc')->references('doc')->on('usuarios')->onDelete('cascade');
-
+            $table->foreign('id_concurso')->references('id')->on('concursos')->onDelete('cascade');
+            
             $table->timestamps();
         });
     }

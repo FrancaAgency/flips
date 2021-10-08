@@ -14,10 +14,11 @@ class CreateCodigosTable extends Migration
     public function up()
     {
         Schema::create('codigos', function (Blueprint $table) {
-            $table->id('lote');
+            $table->id();
+            $table->string('lote',10);
             $table->text('descripcion');
-            $table->tinyInteger('gramos');
-            
+            $table->Integer('gramos');
+
             $table->timestamps();
         });
     }
