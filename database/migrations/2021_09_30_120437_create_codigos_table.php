@@ -17,6 +17,7 @@ class CreateCodigosTable extends Migration
             $table->id();
             $table->string('lote',10);
             $table->text('descripcion');
+            $table->dateTimeTz('fecha_caducidad');
             $table->Integer('gramos');
 
             $table->timestamps();

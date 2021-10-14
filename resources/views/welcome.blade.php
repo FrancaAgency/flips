@@ -4,8 +4,8 @@
 
 @section('content')
     <div x-data="{ open: false }">
-        <button @click="open = !open">Click to List Categories</button>
-        <ul x-show="open">
+        <button  @click="open = !open">Click to List Categories</button>
+        <ul x-show="open" class="bg-red-900">
             <li>PHP</li>
             <li>Laravel</li>
             <li>Vue</li>
