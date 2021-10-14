@@ -23,4 +23,4 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 
 
-Route::post('registro', [UsuarioController::class,'store']);
+Route::post('registro', [UsuarioController::class,'store'])->name('registro.store');

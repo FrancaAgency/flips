@@ -2,6 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
+    @yield('meta')
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="format-detection" content="telephone=no">
@@ -9,6 +10,7 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
     <meta name='author' href="https://github.com/juliansfreelance" email="juliansfreelance@gmail.com" content='Julio Cesar Calderón Garcia - Desarrollador y Diseñador Web'>
     <meta name="description" content="Compañía de Construcciones Andes Coandes S.A. es una Empresa orgullosamente colombiana que inició operaciones en la construcción hace más de 40 años.">
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -32,6 +34,7 @@
 
         <footer></footer>
     </div>
+    @yield('js')
     @stack('modals')
     @livewireScripts
 </body>
