@@ -24,7 +24,7 @@ class StoreUsuario extends FormRequest
     public function rules()
     {
         return [
-         
+            
             'documento' => 'required|integer|min:7|unique:App\Models\Usuario,doc',
             'nombres' => 'required|string|min:3',
             'apellidos' => 'required|string|min:3',

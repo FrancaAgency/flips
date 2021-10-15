@@ -47,11 +47,11 @@
                 dataType: "json",
                 data: {
                     _token: $('input[name="_token"]').val(),
-                    documento: "4545454545",
+                    documento: "77777755555",
                     nombres: "jjajakdiudnn",
                     apellidos: "calderonF gonzalez",
                     telefono: "3023916856",
-                    correo: "uu.calderon@franca.agency",
+                    correo: "puta.calderon@franca.agency",
                     cuidad: "Bogota",
                     direccion: "cra 9 este # 26 f 21",
                     password: "1q2w3e4r5t66",
