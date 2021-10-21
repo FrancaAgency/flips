@@ -16,10 +16,10 @@ class CreateCodigosTable extends Migration
         Schema::create('codigos', function (Blueprint $table) {
             $table->id();
             $table->string('lote',10);
-            $table->text('descripcion');
-            $table->dateTimeTz('fecha_caducidad');
+            $table->text('referencia');
+            $table->date('fecha_caducidad');
             $table->Integer('gramos');
-
+        
             $table->timestamps();
         });
     }

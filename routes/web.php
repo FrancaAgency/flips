@@ -1,7 +1,8 @@
 <?php
 
-use App\Http\Controllers\UsuarioController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UsuarioController;
+use App\Http\Controllers\dashboard\RankingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +25,6 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 
 Route::post('registro', [UsuarioController::class,'store'])->name('registro.store');
+
+Route::resource('dashboard/usuarios', RankingController::class);
+

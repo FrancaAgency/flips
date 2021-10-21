@@ -19,4 +19,9 @@ class Usuario extends Model
         'direccion',
         'password',
     ];
+
+    public function Codigo()
+    {
+        return $this->belongsTo('App\Models\Codigo','lote');
+    }
 }
