@@ -934,7 +934,7 @@ class CodigoSeeder extends Seeder
         $codigo132 = new Codigo();
         $codigo132->lote =  'RS06A23';
         $codigo132->referencia =  'FLIPS CHOCOLATE CAJA';
-        $codigo132->fecha_caducidad =  '1992-10-21';
+        $codigo132->fecha_caducidad =  '2021-08-05';
         $codigo132->gramos =  '400';
         $codigo132->save();
 
@@ -1221,7 +1221,7 @@ class CodigoSeeder extends Seeder
         $codigo173 = new Codigo();
         $codigo173->lote =  'RF19A22';
         $codigo173->referencia =  'FLIPS CHOCOLATE CAJA';
-        $codigo173->fecha_caducidad =  '1992-10-21';
+        $codigo173->fecha_caducidad =  '2021-11-18';
         $codigo173->gramos =  '400';
         $codigo173->save();
 
@@ -1242,7 +1242,7 @@ class CodigoSeeder extends Seeder
         $codigo176 = new Codigo();
         $codigo176->lote =  'RE14A21';
         $codigo176->referencia =  'FLIPS CHOCOLATE CAJA';
-        $codigo176->fecha_caducidad =  '1992-10-21';
+        $codigo176->fecha_caducidad =  '2021-09-07';
         $codigo176->gramos =  '400';
         $codigo176->save();
 
@@ -1452,7 +1452,7 @@ class CodigoSeeder extends Seeder
         $codigo206 = new Codigo();
         $codigo206->lote =  'RU13A41';
         $codigo206->referencia =  'FLIPS CHOCOLATE BOLSA';
-        $codigo206->fecha_caducidad =  '1992-10-21';
+        $codigo206->fecha_caducidad =  '2021-04-07';
         $codigo206->gramos =  '28';
         $codigo206->save();
 
@@ -1589,12 +1589,12 @@ class CodigoSeeder extends Seeder
         $codigo225->gramos =  '120';
         $codigo225->save();
 
-        $codigo226 = new Codigo();
+        /*$codigo226 = new Codigo();
         $codigo226->lote =  'SU20A42';
         $codigo226->referencia =  'FLIPS CHOCOLATE BOLSA';
-        $codigo226->fecha_caducidad =  '1992-10-21';
+        $codigo226->fecha_caducidad =  '#';
         $codigo226->gramos =  '120';
-        $codigo226->save();
+        $codigo226->save();*/
 
         $codigo227 = new Codigo();
         $codigo227->lote =  'SU19C42';
@@ -1802,7 +1802,7 @@ class CodigoSeeder extends Seeder
         $codigo256 = new Codigo();
         $codigo256->lote =  'RU13A41';
         $codigo256->referencia =  'FLIPS CHOCOLATE BOLSA';
-        $codigo256->fecha_caducidad =  '1992-10-21';
+        $codigo256->fecha_caducidad =  '2021-04-07';
         $codigo256->gramos =  '28';
         $codigo256->save();
 
@@ -3115,12 +3115,12 @@ class CodigoSeeder extends Seeder
         $codigo443->gramos =  '120';
         $codigo443->save();
 
-        $codigo444 = new Codigo();
+       /* $codigo444 = new Codigo();
         $codigo444->lote =  'R09A21';
         $codigo444->referencia =  'FLIPS CHOCOLATE BOLSA';
-        $codigo444->fecha_caducidad =  '1992-10-21';
+        $codigo444->fecha_caducidad =  '#';
         $codigo444->gramos =  '120';
-        $codigo444->save();
+        $codigo444->save();*/
 
         $codigo445 = new Codigo();
         $codigo445->lote =  'R14A41';
@@ -3129,12 +3129,12 @@ class CodigoSeeder extends Seeder
         $codigo445->gramos =  '120';
         $codigo445->save();
 
-        $codigo446 = new Codigo();
+        /*$codigo446 = new Codigo();
         $codigo446->lote =  'R15A33';
         $codigo446->referencia =  'FLIPS CHOCOLATE BOLSA';
-        $codigo446->fecha_caducidad =  '1992-10-21';
+        $codigo446->fecha_caducidad =  '#';
         $codigo446->gramos =  '120';
-        $codigo446->save();
+        $codigo446->save();*/
 
         $codigo447 = new Codigo();
         $codigo447->lote =  'RA01A21';
@@ -3213,12 +3213,12 @@ class CodigoSeeder extends Seeder
         $codigo457->gramos =  '120';
         $codigo457->save();
 
-        $codigo458 = new Codigo();
+        /*$codigo458 = new Codigo();
         $codigo458->lote =  'RA1631';
         $codigo458->referencia =  'FLIPS CHOCOLATE BOLSA';
-        $codigo458->fecha_caducidad =  '1992-10-21';
+        $codigo458->fecha_caducidad =  '#';
         $codigo458->gramos =  '120';
-        $codigo458->save();
+        $codigo458->save();*/
 
         $codigo459 = new Codigo();
         $codigo459->lote =  'RA16A11';
@@ -3776,7 +3776,7 @@ class CodigoSeeder extends Seeder
         $codigo538 = new Codigo();
         $codigo538->lote =  'RS14A21';
         $codigo538->referencia =  'FLIPS CHOCOLATE BOLSA';
-        $codigo538->fecha_caducidad =  '1992-10-21';
+        $codigo538->fecha_caducidad =  '2021-09-05';
         $codigo538->gramos =  '120';
         $codigo538->save();
 
@@ -4854,7 +4854,7 @@ class CodigoSeeder extends Seeder
         $codigo692 = new Codigo();
         $codigo692->lote =  'R13A41';
         $codigo692->referencia =  'FLIPS DULCE LECHE BOLSA';
-        $codigo692->fecha_caducidad =  '1992-10-21';
+        $codigo692->fecha_caducidad =  '2021-04-07';
         $codigo692->gramos =  '28';
         $codigo692->save();
 
@@ -5292,12 +5292,12 @@ class CodigoSeeder extends Seeder
         $codigo754->gramos =  '28';
         $codigo754->save();
 
-        $codigo755 = new Codigo();
+       /* $codigo755 = new Codigo();
         $codigo755->lote =  'RS7A21';
         $codigo755->referencia =  'FLIPS DULCE LECHE BOLSA';
-        $codigo755->fecha_caducidad =  '1992-10-21';
+        $codigo755->fecha_caducidad =  '#';
         $codigo755->gramos =  '28';
-        $codigo755->save();
+        $codigo755->save();*/
 
         $codigo756 = new Codigo();
         $codigo756->lote =  'RS17A21';
